@@ -9,5 +9,5 @@ Open the .sln and compile!
 - Screen Sharing not yet implemented
 - Doesn't output the sync correctly
 - Tried different variables, but don't know enough about radio signals to properly diagnose the issue
-Contributers:
+## Contributers:
 - David Croshaw
