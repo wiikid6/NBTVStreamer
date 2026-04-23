@@ -1,0 +1,21 @@
+#include "resource.h"
+#include <windows.h>
+
+IDD_MAIN_DIALOG DIALOGEX 0, 0, 320, 220
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "NBTV Streamer"
+FONT 9, "Segoe UI"
+BEGIN
+    LTEXT           "Video Input Device:", IDC_STATIC_VID_LBL, 10, 10, 100, 10
+    LISTBOX         IDC_LIST_VIDEO, 10, 22, 295, 60,
+                    LBS_NOTIFY | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+
+    LTEXT           "Audio Output Device:", IDC_STATIC_AUD_LBL, 10, 92, 100, 10
+    LISTBOX         IDC_LIST_AUDIO, 10, 104, 295, 60,
+                    LBS_NOTIFY | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+
+    PUSHBUTTON      "Stream", IDC_BTN_STREAM, 10, 178, 70, 18
+    PUSHBUTTON      "Stop",   IDC_BTN_STOP,   90, 178, 70, 18
+
+    LTEXT           "Ready.", IDC_STATIC_STATUS, 10, 202, 295, 10
+END
