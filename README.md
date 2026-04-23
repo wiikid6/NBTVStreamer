@@ -4,7 +4,8 @@ A vibe coded attempt at streaming webcam and screen sharing data to an NBTV audi
 Dependancies:
 - Visual Studio 2022
 - Visual C++
-Open the .sln and compile!
+
+1. Open the .sln and compile!
 ## Issues
 - Screen Sharing not yet implemented
 - Doesn't output the sync correctly
